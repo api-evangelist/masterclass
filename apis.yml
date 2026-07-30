@@ -1,8 +1,27 @@
 aid: masterclass
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/masterclass.png
 name: MasterClass
-description: 'MasterClass is a company surfaced as a portfolio company of atomico, bloomberg-beta, ivp
-  and added to the API Evangelist network as a stub for enrichment. Sector: edtech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'MasterClass is an online education streaming platform where members
+  learn from a roster of 200+ world-renowned instructors across categories including
+  Arts & Entertainment, Business, Design & Style, Sports & Gaming, Writing, Food, Music,
+  Science & Tech, Home & Lifestyle, Community & Government, and Wellness. Content is
+  delivered as video lessons with downloadable workbooks on web, iOS, Android, Apple
+  TV, Roku, and Amazon Fire TV under Standard, Plus, and Premium membership plans.
+  Newer offerings include MasterClass at Work, MasterClass On Call, and the AI-native
+  MasterClass Executive program. Founded by David Rogier; backed by Atomico, Bloomberg
+  Beta, and IVP. MasterClass exposes no public developer API — it is a consumer
+  edtech product, not an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/masterclass/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Edtech
+- Education
+- Online Learning
+- Streaming
+- Video
+- E-Learning
+- Professional Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +50,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/masterclass-domain-security.yml
+- type: LLMsTxt
+  url: llms/masterclass-llms.txt
+- type: Support
+  url: https://www.masterclass.com/help-center
+- type: Pricing
+  url: https://www.masterclass.com/checkout
+- type: Blog
+  url: https://www.masterclass.com/articles
 - type: Website
   url: https://www.masterclass.com
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
