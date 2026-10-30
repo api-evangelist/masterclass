@@ -64,6 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-MasterClass is a company surfaced as a portfolio company of atomico, bloomberg-beta, ivp and added to the API Evangelist network as a stub for enrichment. Sector: edtech. This profile is a lead awaiting the enrichment pipeline.
+MasterClass is an online education streaming platform where members learn from a roster of 200+ world-renowned instructors across categories including Arts & Entertainment, Business, Design & Style, Sports & Gaming, Writing, Food, Music, Science & Tech, Home & Lifestyle, Community & Government, and Wellness. Content is delivered as video lessons with downloadable workbooks on web, iOS, Android, Apple TV, Roku, and Amazon Fire TV under Standard, Plus, and Premium membership plans. Newer offerings include MasterClass at Work, MasterClass On Call, and the AI-native MasterClass Executive program. Founded by David Rogier; backed by Atomico, Bloomberg Beta, and IVP. MasterClass exposes no public developer API — it is a consumer edtech product, not an API provider.
 
-Backed by: atomico, bloomberg-beta, ivp — https://www.masterclass.com
+**Areas:** Company · EdTech · Education · E-Learning · Streaming · Video · Professional Development
+
+## MasterClass on APIs.io
+
+Everything profiled for MasterClass is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/masterclass/](https://apis.io/providers/masterclass/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Masterclass Domain Security](https://apis.io/security/masterclass/masterclass-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.masterclass.com)
+- [Pricing](https://www.masterclass.com/checkout)
+- [Support](https://www.masterclass.com/help-center)
+- [Blog](https://www.masterclass.com/articles)
+
+## API Evangelist rating
+
+**Kin Score 7.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/masterclass/](https://apis.io/providers/masterclass/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MasterClass: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/masterclass/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
